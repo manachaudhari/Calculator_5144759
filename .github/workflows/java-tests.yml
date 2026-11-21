@@ -1,8 +1,9 @@
-name: Java Tests
+name: Quiz 3 - 5144759
 
 on:
   push:                    # run on every push
-  pull_request:            # and on every pull request
+  pull_request:
+  workflow_dispatch:            # and on every pull request
 
 jobs:
   test:
